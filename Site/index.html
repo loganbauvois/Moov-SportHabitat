@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moov'sport habitat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+  </head>
+
+  <body>
+    <header>
+      <div class="title-box">
+        <img src="images/logo.png"></img>
+      </div>
+      <!--Slider d'image-->
+      <div class="slider">
+        <div class="slides">
+          <div class="slide"><img src="images/1.jpg"></div>
+          <div class="slide"><img src="images/2.jpg"></div>
+          <div class="slide"><img src="images/3.jpg"></div>
+        </div>
+      </div>
+
+    </header>
+    
+    <div class="section-container">
+      <nav class="menu">
+        <ul>
+            <li class="nav-item pizza" id="truc1"><br /><button onclick="AfficherMuscu();">Musculation</button><br /></li>
+            <li class="nav-item salade" id="truc2"><br /><button onclick="AfficherYoga();">Yoga</button><br /></li>
+            <li class="nav-item burger" id="truc3"><button onclick="AfficherPing();">Ping-pong</button></li>
+            <li class="nav-item boisson" id="truc4"><button onclick="AfficherVest();">Vestiaire</button></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="muscu" style="display:none;">
+      <div class="section-container">
+        <nav class="menu2">
+          <ul>
+            <li class="nav-item2 vente" id="truc5"><br /><button onclick="AfficherVenteMuscu();">Vente</button><br /></li>
+            <li class="nav-item2 location" id="truc6"><br /><button onclick="AfficherLocationMuscu();">Location</button><br /></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="yoga" style="display:none;">
+      <div class="section-container">
+        <nav class="menu2">
+          <ul>
+            <li class="nav-item2 vente" id="truc7"><br /><button onclick="AfficherVenteYoga();">Vente</button><br /></li>
+            <li class="nav-item2 location" id="truc8"><br /><button onclick="AfficherLocationYoga();">Location</button><br /></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="ping" style="display:none;">
+      <div class="section-container">
+        <nav class="menu2">
+          <ul>
+            <li class="nav-item2 vente" id="truc9"><br /><button onclick="AfficherVentePing();">Vente</button><br /></li>
+            <li class="nav-item2 location" id="truc10"><br /><button onclick="AfficherLocationPing();">Location</button><br /></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="vest" style="display:none;">
+      <div class="section-container">
+        <nav class="menu3">
+          <ul>
+            <li class="nav-item2 location" id="truc11"><br /><button onclick="AfficherLocationVest();">Location</button><br /></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="ventemuscu" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 35 000€HT<br>
+        Taille : 6x12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="locationmuscu" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 2 000€/mois HT<br>
+        Taille : 6x12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="venteyoga" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 20 000€HT<br>
+        Taille : 6x12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="locationyoga" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 1 000€HT<br>
+        Taille : 6 x 12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="venteping" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 22 000€HT<br>
+        Taille : 6 x 12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="locationping" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 1 000€HT<br>
+        Taille : 6 x 12m => 72m²<br>
+        <button>ACHETER</button>
+      </p>
+    </div>
+    <div id="locationvest" style="display:none;">
+      <h1 class="prix">Basique</h1>
+      <p class="prix">
+        Prix : 1 000€HT<br>
+        Taille : 6 x 12m => 72m²<br>
+        <button class="achat">ACHETER</button>
+      </p>
+    </div>
+  </body>
+</html>
